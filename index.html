@@ -21,7 +21,7 @@
 <link rel="stylesheet" href="assets/css/theme1bce.css?ver=1930">
 <meta name="google-site-verification" content="4xyXdU1_4LXuKxbfBx0gjifMsf9jzXe_cjscd1Zd5cg">
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-211603983-1"></script>
+<script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-211603983-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -33,6 +33,7 @@
 </style> 
 
 <style type="text/css">/* Chart.js */
+@keyframes chartjs-render-animation{from{opacity:.99}to{opacity:1}}.chartjs-render-monitor{animation:chartjs-render-animation 1ms}.chartjs-size-monitor,.chartjs-size-monitor-expand,.chartjs-size-monitor-shrink{position:absolute;direction:ltr;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1}.chartjs-size-monitor-expand>div{position:absolute;width:1000000px;height:1000000px;left:0;top:0}.chartjs-size-monitor-shrink>div{position:absolute;width:200%;height:200%;left:0;top:0}</style><style type="text/css">/* Chart.js */
 @keyframes chartjs-render-animation{from{opacity:.99}to{opacity:1}}.chartjs-render-monitor{animation:chartjs-render-animation 1ms}.chartjs-size-monitor,.chartjs-size-monitor-expand,.chartjs-size-monitor-shrink{position:absolute;direction:ltr;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1}.chartjs-size-monitor-expand>div{position:absolute;width:1000000px;height:1000000px;left:0;top:0}.chartjs-size-monitor-shrink>div{position:absolute;width:200%;height:200%;left:0;top:0}</style></head>
 
 
@@ -43,7 +44,7 @@
 	<font color="black">
  
 	</font><div class="nk-wrap has-ovm"><font color="black">
-		</font><header class="nk-header page-header is-transparent is-sticky is-dark" id="header"><font color="black">
+		</font><header class="nk-header page-header is-transparent is-sticky is-dark has-fixed" id="header"><font color="black">
 		    <!-- Header @s -->
 			</font><div class="header-main"><font color="black">
 				</font><div class="header-container container container-xxl"><font color="black">
@@ -70,7 +71,7 @@
 						<div class="header-navbar animated fadeInDown" data-animate="fadeInDown" data-delay=".6" style="visibility: visible; animation-delay: 0.6s;">
 							<nav class="header-menu" id="header-menu">
     <ul class="menu">
-    <li class="menu-item ">
+    <li class="menu-item active">
         <a class="menu-link nav-link menu-toggle" href="index.html">Home</a>
     </li>
     <li class="menu-item ">
@@ -130,7 +131,7 @@
         <li><a target="_blank" href="dashboard/index.html" class="btn btn-md btn-thin btn-outline btn-auto btn-primary btn-round no-change"><span>Pre sale</span></a></li>
     </ul>
 </nav>
-						<div class="header-navbar-overlay"></div></div><!-- .header-navbar @e -->
+						<div class="header-navbar-overlay"></div><div class="header-navbar-overlay"></div></div><!-- .header-navbar @e -->
 					</div>                                                
 				</div>
 			</div><!-- .header-main @e -->
@@ -184,7 +185,7 @@
                 </div>-->
                 
                 <!-- Place Particle Js -->
-                <div id="particles-bg" class="particles-container is-fixed particles-bg op-20"><canvas class="particles-js-canvas-el" width="1108" height="907" style="width: 100%; height: 100%;"></canvas></div>
+                <div id="particles-bg" class="particles-container is-fixed particles-bg op-20"><canvas class="particles-js-canvas-el" width="1343" height="896" style="width: 100%; height: 100%;"></canvas></div>
             </div>
 		</header>
     
@@ -579,7 +580,7 @@
                         <div class="row align-items-center gutter-vr-50px">
                             <div class="col-xxl-4 col-lg-6 px-xl-5 order-xl-1">
                                 <div class="animated fadeInUp" data-animate="fadeInUp" data-delay="0.3" style="visibility: visible; animation-delay: 0.3s;"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
-                                    <canvas class="chart-canvas chartjs-render-monitor" id="token-distribution" style="display: block; width: 450px; height: 300px;" width="450" height="300"></canvas>
+                                    <canvas class="chart-canvas chartjs-render-monitor" id="token-distribution" style="display: block; width: 474px; height: 360px;" width="948" height="720"></canvas>
                                 </div>
                             </div>
                             <div class="col-xxl col-lg-6">
@@ -649,7 +650,7 @@
 
             </section>
             <!-- // -->
-            <section class="section" id="roadmap" >
+            <section class="section" id="roadmap">
 
                 <div class="container">
                     <div class="row justify-content-center text-center">
@@ -670,78 +671,76 @@
                         <div class="roadmap-wrap roadmap-wrap-ovl-right text-center animated fadeInUp" data-animate="fadeInUp" data-delay="0.3" style="visibility: visible; animation-delay: 0.3s;">
                             <div class="roadmap-line-s2"></div>
                             <div class="roadmap-slider has-carousel carousel-nav-center owl-carousel owl-loaded owl-drag blank-added" data-blank="true" data-items="5" data-items-tab-l="4" data-items-tab-p="3" data-items-mobile="2" data-margin="-1" data-navs="true">                                   
-                            <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 2710px;"><div class="owl-item active" style="width: 226.8px; margin-right: -1px;"><div class="roadmap roadmap-s2 roadmap-i1 roadmap-finished">
+                            <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 3142px;"><div class="owl-item active" style="width: 262.8px; margin-right: -1px;"><div class="roadmap roadmap-s2 roadmap-i1 roadmap-finished">
                                     <h6 class="roadmap-year-s2">Q3 2021</h6>
                                     <h5 class="title title-sm roadmap-date">September 2021</h5>
                                     <div class="roadmap-text">
                                         <p>Formation of  Porter Free Token Business plan</p>
                                     </div>
-                                </div></div><div class="owl-item active" style="width: 226.8px; margin-right: -1px;"><div class="roadmap roadmap-s2 roadmap-i2 roadmap-finished">
+                                </div></div><div class="owl-item active" style="width: 262.8px; margin-right: -1px;"><div class="roadmap roadmap-s2 roadmap-i2 roadmap-finished">
                                     <h6 class="roadmap-year-s2">Q3 2021</h6>
                                     <h5 class="title title-sm roadmap-date">September 2021</h5>
                                     <div class="roadmap-text">
                                         <p>Start of Porter Free Token Development</p>
                                     </div>
-                                </div></div><div class="owl-item active" style="width: 226.8px; margin-right: -1px;"><div class="roadmap roadmap-s2 roadmap-i3 roadmap-finished">
+                                </div></div><div class="owl-item active" style="width: 262.8px; margin-right: -1px;"><div class="roadmap roadmap-s2 roadmap-i3 roadmap-finished">
                                     <h6 class="roadmap-year-s2">Q3 2021</h6>
                                     <h5 class="title title-sm roadmap-date">September 2021</h5>
                                     <div class="roadmap-text">
                                         <p>Website, Whitepaper and Game preparation</p>
                                     </div>
-                                </div></div><div class="owl-item active" style="width: 226.8px; margin-right: -1px;"><div class="roadmap roadmap-s2 roadmap-i4 roadmap-finished ">
+                                </div></div><div class="owl-item active" style="width: 262.8px; margin-right: -1px;"><div class="roadmap roadmap-s2 roadmap-i4 roadmap-finished ">
                                     <h6 class="roadmap-year-s2">Q4 2021</h6>
                                     <h5 class="title title-sm roadmap-date">October 2021</h5>
                                     <div class="roadmap-text">
                                         <p>Launch of the Porter Free Token and Game</p>
                                     </div>
-                                </div></div><div class="owl-item active" style="width: 226.8px; margin-right: -1px;"><div class="roadmap roadmap-s2 roadmap-i5 roadmap-finished ">
+                                </div></div><div class="owl-item active" style="width: 262.8px; margin-right: -1px;"><div class="roadmap roadmap-s2 roadmap-i5 roadmap-finished ">
                                     <h6 class="roadmap-year-s2">Q4 2021</h6>
                                     <h5 class="title title-sm roadmap-date">October 2021</h5>
                                     <div class="roadmap-text">
                                         <p>Multiple big advertisement works for Token</p>
                                     </div>
-                                </div></div><div class="owl-item" style="width: 226.8px; margin-right: -1px;"><div class="roadmap roadmap-s2 roadmap-i6 roadmap-finished">
+                                </div></div><div class="owl-item" style="width: 262.8px; margin-right: -1px;"><div class="roadmap roadmap-s2 roadmap-i6 roadmap-finished">
                                     <h6 class="roadmap-year-s2">Q4 2021</h6>
                                     <h5 class="title title-sm roadmap-date">October 2021</h5>
                                     <div class="roadmap-text">
                                         <p>Coinmarketcap</p>
                                     </div>
-                                </div></div><div class="owl-item" style="width: 226.8px; margin-right: -1px;"><div class="roadmap roadmap-s2 roadmap-i7 roadmap-finished">
+                                </div></div><div class="owl-item" style="width: 262.8px; margin-right: -1px;"><div class="roadmap roadmap-s2 roadmap-i7 roadmap-finished">
                                     <h6 class="roadmap-year-s2">Q4 2021</h6>
                                     <h5 class="title title-sm roadmap-date">October 2021</h5>
                                     <div class="roadmap-text">
                                         <p>Charity</p>
                                     </div>
-                                </div></div><div class="owl-item" style="width: 226.8px; margin-right: -1px;"><div class="roadmap roadmap-s2 roadmap-i8 roadmap-finished">
+                                </div></div><div class="owl-item" style="width: 262.8px; margin-right: -1px;"><div class="roadmap roadmap-s2 roadmap-i8 roadmap-finished">
                                     <h6 class="roadmap-year-s2">Q4 2021</h6>
                                     <h5 class="title title-sm roadmap-date">October 2021</h5>
                                     <div class="roadmap-text">
                                         <p>Security Audit</p>
                                     </div>
-                                </div></div><div class="owl-item" style="width: 226.8px; margin-right: -1px;"><div class="roadmap roadmap-s2 roadmap-i9 ">
+                                </div></div><div class="owl-item" style="width: 262.8px; margin-right: -1px;"><div class="roadmap roadmap-s2 roadmap-i9 ">
                                     <h6 class="roadmap-year-s2">Q4 2021</h6>
                                     <h5 class="title title-sm roadmap-date">October 2021</h5>
                                     <div class="roadmap-text">
                                         <p>NFT Launch</p>
                                     </div>
-                                </div></div><div class="owl-item" style="width: 226.8px; margin-right: -1px;"><div class="roadmap roadmap-s2 roadmap-i10">
+                                </div></div><div class="owl-item" style="width: 262.8px; margin-right: -1px;"><div class="roadmap roadmap-s2 roadmap-i10">
                                     <h6 class="roadmap-year-s2">Q4 2021</h6>
                                     <h5 class="title title-sm roadmap-date">October 2021</h5>
                                     <div class="roadmap-text">
                                         <p>Coingecko</p>
                                     </div>
-                                </div></div><div class="owl-item" style="width: 226.8px; margin-right: -1px;"><div class="roadmap roadmap-s2 roadmap-i11">
+                                </div></div><div class="owl-item" style="width: 262.8px; margin-right: -1px;"><div class="roadmap roadmap-s2 roadmap-i11">
                                     <h6 class="roadmap-year-s2">Q4 2021</h6>
                                     <h5 class="title title-sm roadmap-date">December 2021</h5>
                                     <div class="roadmap-text">
                                         <p>Exchange Listing</p>
                                     </div>
-                                </div></div><div class="owl-item" style="width: 226.8px; margin-right: -1px;">
+                                </div></div><div class="owl-item" style="width: 262.8px; margin-right: -1px;">
 				    <div class="item-blank"></div></div></div></div>
-				    <div class="owl-nav">
-				    <button type="button" role="presentation" class="owl-prev disabled"></button>
-				    <button type="button" role="presentation" class="owl-next"></button></div>
-				    <div class="owl-dots disabled"></div></div>
+				    
+				    <div class="owl-dots disabled"></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"></button><button type="button" role="presentation" class="owl-next"></button></div><div class="owl-dots disabled"></div></div>
                         </div>
                     </div>
                 </div>
@@ -1067,5 +1066,6 @@
 
 
 <!-- Mirrored from www./ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 05 Nov 2021 02:49:11 GMT -->
+
 
 </body></html>
