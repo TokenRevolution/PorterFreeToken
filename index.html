@@ -217,11 +217,37 @@
     border-radius: 20%;
 ">
                                 <div class="text-center banner-gfx banner-gfx-auto animated fadeInUp" data-animate="fadeInUp" data-delay=".7" style="visibility: visible; animation-delay: 0.7s;">
-                                    <p id="demo" style="
+					<h1> Countdown Clock </h1>
+					<p id="demo" style="
     margin-top: 100px;
     font-size: 35px;
     color: white;
 ">347d 0h 20m 38s </p>
+					<h3>Rased Found</h3>
+					<div class="w3-light-grey">
+    <div id="myBar" class="w3-green" style="height:24px;width:0"></div>
+  </div>
+  <br>
+
+  <button class="w3-button w3-green" onclick="move()">Click Me</button> 
+</div>
+
+<script>
+function move() {
+  var elem = document.getElementById("myBar");   
+  var width = 1;
+  var id = setInterval(frame, 10);
+  function frame() {
+    if (width >= 100) {
+      clearInterval(id);
+    } else {
+      width++; 
+      elem.style.width = width + '%'; 
+    }
+  }
+}
+</script>
+
 				<script>
 // Set the date we're counting down to
 var countDownDate = new Date("Jan 5, 2023 15:37:25").getTime();
